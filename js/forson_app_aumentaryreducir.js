@@ -6,7 +6,9 @@ nodo.setAttribute("id", "aumentar");
 nodo.setAttribute("onclick", "setFont()");
 var t = document.createTextNode("Aumentar");
 nodo.appendChild(t);
+console.log("antes");
 var aumentar = document.getElementById("todo");
+console.log("Aumentar = "+aumentar);
 aumentar.insertBefore(nodo, aumentar.childNodes[0]);
 /*Método que incrementa el tamaño de la fuente*/
 function setFont() {
