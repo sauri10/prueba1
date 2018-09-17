@@ -1,5 +1,5 @@
 // JavaScript Document
-<script>
+
 /*Creamos un elemento boton*/
 var nodo = document.createElement("BUTTON")
 nodo.setAttribute("id", "aumentar");
@@ -18,4 +18,3 @@ function setFont() {
    aumentar.style.fontSize = cadena; 
 }
 
-</script>
